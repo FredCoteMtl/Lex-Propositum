@@ -59,20 +59,12 @@ export const ImgBg = styled.img`
 `;
 
 export const HeroContent = styled.div`
-    margin-top: 7%;
+    margin-top: 100px;
     z-index: 3;
     max-width: 1200px;
     position: absolute;
     padding: 8px 24px;
     align-items: center;
-
-    @media screen and (max-width: 768px) {
-        margin-top: 15%;
-    }
-
-    @media screen and (max-witdh: 480px) {
-        margin-top: 25%;
-    }
 `;
 
 export const HeroH1 = styled.h1`
@@ -106,13 +98,19 @@ export const HeroP = styled.p`
 `;
 
 export const SocialIcons = styled.div`
-    margin-top: 40%;
-    margin-left: 80%;
+    position:absolute;
+    bottom: 80px;
+    right: 80px;
     z-index: 3;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 200px;
+
+    @media screen and (max-width: 768px) {
+        right: 40px;
+        width: 150px;
+    }
 `;
 
 export const SocialIconLink = styled.a`

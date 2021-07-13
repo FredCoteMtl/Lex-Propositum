@@ -22,10 +22,6 @@ export const InfoWrapper = styled.div`
     padding: 0 24px;
     justify-content: center;
     display: flex;
-
-    @media screen and (max-width: 768px) {
-        height: 860px;
-    }
 `;
 
 export const TextWrapper = styled.div`
@@ -99,5 +95,40 @@ export const ProjectWebsite = styled.a`
 
 export const ProjectStatus = styled.p`
     padding-bottom: 10px;
+`;
+
+export const CardWrapper = styled.div`
+    display: grid;
+    z-index: 1;
+    height: 660px;
+    width: 100%;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px;
+    justify-content: center;
+`;
+
+export const InfoRow = styled.div`
+    display: grid;
+    grid-auto-column: minmax(auto, 1fr);
+    aling-items: center;
+    grid-template-areas: 'col1 col2';
+
+    @media screen and (max-width: 768px) {
+        grid-template-areas: 'col1 col1' 'col2 col2';
+    }
+`;
+
+export const Column1 = styled.div`
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area: col1;
+`;
+
+export const Column2 = styled.div`
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area: col2;
 `;
     

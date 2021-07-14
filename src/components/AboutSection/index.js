@@ -29,8 +29,8 @@ const AboutSection = () => {
                     <Column1>
                         <TextWrapper>
                             <TopLine>WHAT WE DO</TopLine>
-                            <Subtitle>Moth Lab is a group of blockchain and web3 enjoyers comming together to pool resources and skills.</Subtitle>
-                            <Subtitle>Annyone ca join us, propose some ideas or request help in a project.</Subtitle>
+                            <Subtitle>Moth Lab is a group of technology enjoyers coming together to pool resources and skills.</Subtitle>
+                            <Subtitle>Anyone ca join us, propose ideas or request help in a project.</Subtitle>
                             <Subtitle>If you have a good understanding of the blockchain and web3 technologies but you dont have the necessary ressources to launch your project alone, moth lab is the place for you.</Subtitle>
                             <Subtitle>Not sure? Come chat with us! <Link href={''} target={'_blank'}><FaTelegramPlane /></Link></Subtitle>
                         </TextWrapper>

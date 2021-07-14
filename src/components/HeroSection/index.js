@@ -12,7 +12,7 @@ import {
     HeroH1,
     HeroP,
     SocialIcons,
-    SocialIconLink
+    SocialIconLink,
 } from './HeroElements';
 import Video from '../../videos/nightCity.mp4';
 import ImageBg from '../../images/backgrounds/JackBlue.jpg'
@@ -34,8 +34,8 @@ const HeroSection = ({ mothMaster }) => {
                 };
             </HeroBg>
             <HeroContent>
-                <HeroH1>MOTH LAB</HeroH1>
-                <HeroP>The place for project starters</HeroP> 
+                <HeroH1>LEX PROPOSITUM</HeroH1>
+                <HeroP>Ideas For Humans</HeroP> 
             </HeroContent>
             <SocialIcons>
                 <SocialIconLink href="https://t.me/joinchat/h7lMawPKhn4xMTRh" target="_blank" aria-label="Telegram">

@@ -82,7 +82,7 @@ const NavBar = ({ toggle }) => {
                         </NavItem>
                     </NavMenu>
                     <NavTempLogo onClick={toggleHome}>
-                            MOTH LAB
+                            LEX PROPOSITUM
                     </NavTempLogo>
                 </NavBarContainer>
             </Nav>

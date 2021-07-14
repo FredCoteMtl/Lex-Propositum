@@ -31,7 +31,7 @@ const SideBar = ({
                     <SideBarLink to='team' onClick={toggle}>Team</SideBarLink>  
                 </SideBarMenu>
                 <NavTempLogo onClick={toggleHome}>
-                    MOTH LAB
+                    Lex Propositum
                 </NavTempLogo>
             </SideBarWrapper>
         </SideBarContainer>
